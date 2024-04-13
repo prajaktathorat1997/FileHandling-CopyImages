@@ -25,6 +25,7 @@ public class ImageCopy {
 				byte[]a=fis.readAllBytes();
 				
 			p.write(a);
+			System.out.println();
 			
 			
 		} catch (Exception e) {
